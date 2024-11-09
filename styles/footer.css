@@ -11,4 +11,5 @@ ul {
     padding-inline: 32px;
     max-width: 1280px;
     margin-inline: auto;
+    font: 14px/150% var(--font-family);
 } 

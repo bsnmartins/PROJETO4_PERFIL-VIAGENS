@@ -9,4 +9,10 @@ main img {
     width: 286px;
     height: 286px;
     object-fit: cover;
+    transition: filter 0.3s;
+}
+
+main img:hover {
+    filter:brightness(120%);
+    filter:contrast(150%);
 }
