@@ -1,0 +1,38 @@
+.desktop-only {
+  display: none;
+}
+
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+.flex {
+  display: flex;
+}
+#profile {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (width >= 1280px){
+  .desktop-only {
+    display: initial;
+  }
+  
+  .header-content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #profile {
+    flex-direction: row;
+  }
+
+}
+
