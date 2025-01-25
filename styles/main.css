@@ -3,7 +3,7 @@ main {
     flex-wrap: wrap;
     padding-block: 24px;
     gap: 24px;
-    justify-content: center;
+ 
 }
 
 main img {
@@ -19,5 +19,7 @@ main img:hover {
 }
 
 .pics {
-    background-color: black;
+    justify-content: center;
+    margin: 0 auto;
+
 }

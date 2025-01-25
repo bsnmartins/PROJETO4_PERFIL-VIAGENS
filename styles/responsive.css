@@ -6,13 +6,14 @@
 .header-content {
   /* display: flex; */
   flex-direction: column;
+  padding-inline: 32px;
+
 }
 
 
 .resume {
   width: 280px;
   text-align: left;
-  background-color: aquamarine;
 
 }
 
