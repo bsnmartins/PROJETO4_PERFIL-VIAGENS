@@ -19,12 +19,16 @@
     --text: 16px/150% var(--font-family);
 
 }
-
-body {
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
     color: var(--text-color-secondary);
     background-color: var(--background-color);
     font: var(--text);
-}
+    justify-content: center;
+    overflow-x: hidden;
+    }
 
 a {
     text-decoration: none;
@@ -48,4 +52,14 @@ a:hover {
 
 .bg_surface_color {
     background-color: var(--surface-color);
+    padding-block: 24px; 
+    padding-inline: 32px;
+    width: 100vw;
+    max-width: 100%;
+    justify-content: center;
+    margin: 0;
+    position: relative;
+    z-index: 0;
+    
 }
+

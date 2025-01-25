@@ -26,7 +26,7 @@
   flex-direction: column;
 }
 
-@media (width >= 1280px){
+@media (min-width: 1280px){
   .desktop-only {
     display: initial;
   }
@@ -40,5 +40,16 @@
     flex-direction: row;
   }
 
-}
+  .container {
+    padding-inline: 32px;
+    width: 1280px;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+  }
 
+  .bg_surface_color {
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
