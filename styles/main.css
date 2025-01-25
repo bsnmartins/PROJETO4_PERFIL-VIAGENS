@@ -17,3 +17,7 @@ main img:hover {
     filter:brightness(120%);
     filter:contrast(150%);
 }
+
+.pics {
+    background-color: black;
+}

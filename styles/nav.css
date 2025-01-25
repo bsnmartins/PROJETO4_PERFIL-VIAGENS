@@ -12,6 +12,12 @@ nav ul {
     align-items: center;
     gap: 24px;
     padding-block:8px;
+
+}
+
+.nav-menu {
+    padding-inline: 32px;
+    max-width: 1280px;
 }
 
 .avatar_icon {

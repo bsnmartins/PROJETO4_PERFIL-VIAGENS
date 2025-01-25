@@ -4,13 +4,15 @@
 
 
 .header-content {
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
 }
 
 
 .resume {
   width: 280px;
+  text-align: left;
+  background-color: aquamarine;
 
 }
 
