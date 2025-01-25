@@ -2,14 +2,32 @@ ul {
     list-style: none;
     display: flex;
     gap: 24px;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
 }
 
  div.footer {
-    display: flex;
-    justify-content: space-between;
+    text-align: center;
     padding-block: 24px; 
     padding-inline: 32px;
-    max-width: 1280px;
+    max-width: 360px;
     margin-inline: auto;
     font: 14px/150% var(--font-family);
+
+    & p {
+        margin-bottom: 16px;
+    }
 } 
+
+@media (min-width: 1280px) {
+    div.footer {
+        display: flex;
+        justify-content: space-between;
+        padding-block: 24px; 
+        padding-inline: 32px;
+        max-width: 1280px;
+        margin-inline: auto;
+        font: 14px/150% var(--font-family);
+    } 
+}
